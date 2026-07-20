@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <script>
+      if (
+        location.protocol === "file:" &&
+        !location.pathname.replace(/\\/g, "/").toLowerCase().endsWith("/dist/index.html")
+      ) {
+        location.replace("./dist/index.html");
+      }
+    </script>
+    <meta
+      name="description"
+      content="校园 AI 助手，面向新生报到、宿舍、缴费、交通、资助、军训等校园问题的智能答疑网站。"
+    />
+    <title>校园 AI 助手</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
